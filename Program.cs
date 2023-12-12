@@ -45,7 +45,7 @@ namespace TheGridTask.Console
 
             };
 
-            var connectionString = ConfigurationManager.ConnectionStrings["JokesDB"].ConnectionString;
+            var connectionString = ConfigurationManager.ConnectionStrings["GridJokesDB"].ConnectionString;
             var optionsBuilder = new DbContextOptionsBuilder<JokeContext>();
             optionsBuilder.UseSqlServer(connectionString);
             var options = optionsBuilder.Options;
