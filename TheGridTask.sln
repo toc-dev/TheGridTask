@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGridTask.Console", "TheGridTask.Console.csproj", "{8B05B972-2F36-4E3D-8DB9-EC376E66AABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGridTask.Web", "..\TheGridTaskWeb\TheGridTask.Web.csproj", "{8DED36B5-17E2-420A-89A0-C739CAF338AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B05B972-2F36-4E3D-8DB9-EC376E66AABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B05B972-2F36-4E3D-8DB9-EC376E66AABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B05B972-2F36-4E3D-8DB9-EC376E66AABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B05B972-2F36-4E3D-8DB9-EC376E66AABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DED36B5-17E2-420A-89A0-C739CAF338AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DED36B5-17E2-420A-89A0-C739CAF338AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DED36B5-17E2-420A-89A0-C739CAF338AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DED36B5-17E2-420A-89A0-C739CAF338AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FD3D915-9C3A-47D9-B58A-A0D4BC76A836}
+	EndGlobalSection
+EndGlobal
